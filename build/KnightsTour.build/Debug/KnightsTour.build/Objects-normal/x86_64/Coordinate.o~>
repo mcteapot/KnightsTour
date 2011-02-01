@@ -1,0 +1,1 @@
+/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Coordinate.cpp:59: error: no 'bool Coordinate::getPositiongState()' member function declared in class 'Coordinate'

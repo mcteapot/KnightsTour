@@ -25,8 +25,9 @@ public:
 	void printBoard();
 	void moveToSpot(int x, int y);
 	void moveToCoordinate(Coordinate &theSpot);
-	void listMoves();
-
+	void listMoved();
+	bool checkCompleated();
+	bool checkSpot(int x, int y);
 private:
 	
 	int xSquares;

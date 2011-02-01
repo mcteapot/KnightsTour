@@ -14,6 +14,7 @@
 #include <time.h>
 #include <cstdlib>
 #include "Coordinate.h"
+#include "ChessBoard.h"
 
 using namespace std;
 
@@ -23,12 +24,20 @@ public:
 	Knight();
 	~Knight();
 	
-	void legalMove();
-	void setCoordinates(int x,int y,Coordinate &theSpot);
+	void checkLegalMoves(Coordinate &aSpot, ChessBoard &grid);
+	void moveToRandomLegalSpot(Coordinate &aSpot, ChessBoard &theGrid);
+	void setCoordinates(int x,int y,Coordinate &theSpot, ChessBoard &theGrid);
 	void setRandomCoordinates(Coordinate &theSpot);
+	void printLegalSpots();
+	void knightMoves();
 	void printH();
 	Coordinate setterCoordinates;
 	int boardSize;
+	Coordinate *possibleCoordinates;
+	//Coordinate *possibleMove;
+	int *legalMoveNumber;
+	int possibleMoves;
+	bool legalMovesChecked;
 
 };
 

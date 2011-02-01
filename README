@@ -1,0 +1,13 @@
+#add fine
+git add * #all files 
+git add filename.txt
+git commit -m 'first commit'
+git remote add origin git@github.com:mcteapot/KnightsTour.git
+git push origin master
+
+#commit existing file 
+git commit -m 'first commit'
+git push origin master 
+
+#get key
+cat .ssh/id_dsa.pub 

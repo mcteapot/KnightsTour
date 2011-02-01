@@ -25,18 +25,30 @@ int main (int argc, char * const argv[]) {
 	int boardBlock = 1;
 	int boardSize = 8;
 	Knight theKnight(boardSize);
-	Coordinate aSpot;
+	Coordinate aSpot(boardSize);
 	ChessBoard board(boardSize, boardSize, boardBlock);
     board.initBoard();
 	aSpot.printCoordinates();
 	board.printBoard();
 
-	
-	theKnight.setCoordinates(1, 7, aSpot);
-	board.moveToCoordinate(aSpot);
+	//set init move
+	theKnight.setCoordinates(1, 7, aSpot, board);
     aSpot.printCoordinates();
 	board.printBoard();
+	//first move
+	theKnight.checkLegalMoves(aSpot, board);
+	theKnight.printLegalSpots();
+	theKnight.moveToRandomLegalSpot(aSpot, board);
+	board.printBoard();
+	//second move
+	//TODO: fix the checking of spot
+	theKnight.checkLegalMoves(aSpot, board);
+	theKnight.printLegalSpots();
+	theKnight.moveToRandomLegalSpot(aSpot, board);
+	board.printBoard();
+	//board.moveToCoordinate(aSpot);
 	
+	/*
 	theKnight.setCoordinates(3, 5, aSpot);
 	board.moveToCoordinate(aSpot);
     aSpot.printCoordinates();
@@ -50,9 +62,14 @@ int main (int argc, char * const argv[]) {
 	theKnight.setRandomCoordinates(aSpot);
 	board.moveToCoordinate(aSpot);
     aSpot.printCoordinates();
+	*/
 	
+	cout << "FINAL MOVES!\n";
 	board.printBoard();
-	board.listMoves();
+	board.listMoved();
+	
+	
+	//cout << board.checkCompleated() << endl;
 	cout << "Running!\n";
     return 0;
 }

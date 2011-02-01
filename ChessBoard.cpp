@@ -95,6 +95,7 @@ void ChessBoard::moveToSpot(int x, int y) {
 	yMoved.push_back(y);
 }
 
+//moveToCoordinate method
 void ChessBoard::moveToCoordinate(Coordinate &theSpot){
 	int x = theSpot.x;
 	int y = theSpot.y;
@@ -106,13 +107,35 @@ void ChessBoard::moveToCoordinate(Coordinate &theSpot){
 }
 
 //listMoves method
-void ChessBoard::listMoves() {
+void ChessBoard::listMoved() {
 	for (int i=0; i<xMoved.size(); i++) {
 		cout<<"move("<< i << ") " << getLetter(xMoved[i]) << " " << yMoved[i]+1 << endl;
 	}
 	cout << endl;
 }
 
+//checkCompleated method
+bool ChessBoard::checkCompleated() {
+	for (int i=0; i<xSquares; i++) {
+		for (int j=0; i<ySquares; j++) {
+			if ((grid[i][j])==0) {
+				return false;
+			}
+		}
+	}
+	return true;
+}
+bool ChessBoard::checkSpot(int x, int y) {
+	if ((grid[x][y]==1)) {
+		return false;
+	} else {
+		return true;
+	}
+
+	//return false;
+
+}
+//getLetter helper method
 char ChessBoard::getLetter(int b) {
 	
 	return (char)(b+65);

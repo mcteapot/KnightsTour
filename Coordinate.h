@@ -22,10 +22,17 @@ public:
 	Coordinate(int boardSize);
 	Coordinate();
 	~Coordinate();
-	void setCoordinate(int setX, int setY);
+	bool setCoordinate(int setX, int setY);
+	void setBoardSize(int boardSize);
+	int getX();
+	int getY();
+	bool getPositiongState();
 	void printCoordinates();
 	int x;
 	int y;
+	int boardSizeX;
+	int boardSizeY;
+	bool positionState;
 };
 
 
