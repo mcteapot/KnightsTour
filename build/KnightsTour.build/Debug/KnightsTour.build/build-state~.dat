@@ -1,0 +1,109 @@
+TKnightsTour
+v7
+r0
+t317696972.189106
+cCheck dependencies
+cCompileC build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/ChessBoard.o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp
+c000000004D3F7430000000000000018B
+t1296004144
+s395
+i"ChessBoard.h"
+
+N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h
+c000000004D3F738500000000000001CA
+t1296003973
+s458
+i<iostream>
+i<typeinfo>
+i<cstdlib>
+i<string>
+
+N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/KnightsTour
+t2
+s0
+
+N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/ChessBoard.o
+t2
+s0
+
+N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/KnightsTour.LinkFileList
+c000000004D3F744B000000000000011C
+t1296004171
+s284
+
+N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp
+c000000004D3F74490000000000000181
+t1296004169
+s385
+i<iostream>
+i"ChessBoard.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317696971#317696971#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/ChessBoard.o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s317696971.769969
+e317696972.189018
+r0
+xCompileC
+xbuild/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/ChessBoard.o
+x/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:10:
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:25: error: ISO C++ forbids declaration of 'initBoard' with no type
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:26: error: expected ';' before 'private'
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:30: error: declaration of 'graph' as multidimensional array must have bounds for all dimensions except the first
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:12: error: prototype for 'ChessBoard::ChessBoard(int, int, int)' does not match any in class 'ChessBoard'
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:21: error: candidates are: ChessBoard::ChessBoard(const ChessBoard&)
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:24: error:                 ChessBoard::ChessBoard()
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:23: error:                 ChessBoard::ChessBoard(int, int)
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp: In constructor 'ChessBoard::ChessBoard(int, int, int)':
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:14: error: 'ySquares' was not declared in this scope
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp: In constructor 'ChessBoard::ChessBoard()':
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:18: error: 'x' was not declared in this scope
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:19: error: 'y' was not declared in this scope
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp: At global scope:
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:24: error: ISO C++ forbids declaration of 'initBoard' with no type
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:24: error: no 'int ChessBoard::initBoard()' member function declared in class 'ChessBoard'
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp: In member function 'int ChessBoard::initBoard()':
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:25: error: 'board' was not declared in this scope
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:25: error: expected type-specifier before '[' token
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:25: error: 'ySquares' was not declared in this scope
+lSLF07#2@84"Compile /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696971#317696972#0(2690"In file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:10:/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:25: error: ISO C++ forbids declaration of 'initBoard' with no type/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:26: error: expected ';' before 'private'/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:30: error: declaration of 'graph' as multidimensional array must have bounds for all dimensions except the first/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:12: error: prototype for 'ChessBoard::ChessBoard(int, int, int)' does not match any in class 'ChessBoard'/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:21: error: candidates are: ChessBoard::ChessBoard(const ChessBoard&)/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:24: error:                 ChessBoard::ChessBoard()/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:23: error:                 ChessBoard::ChessBoard(int, int)/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp: In constructor 'ChessBoard::ChessBoard(int, int, int)':/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:14: error: 'ySquares' was not declared in this scope/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp: In constructor 'ChessBoard::ChessBoard()':/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:18: error: 'x' was not declared in this scope/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:19: error: 'y' was not declared in this scope/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp: At global scope:/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:24: error: ISO C++ forbids declaration of 'initBoard' with no type/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:24: error: no 'int ChessBoard::initBoard()' member function declared in class 'ChessBoard'/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp: In member function 'int ChessBoard::initBoard()':/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:25: error: 'board' was not declared in this scope/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:25: error: expected type-specifier before '[' token/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp:25: error: 'ySquares' was not declared in this scope16(4@55"ISO C++ forbids declaration of 'initBoard' with no type317696972#103#142#2(7@98"In file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696972#18446744073709551615#0#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#10#0#10#0#0"0(13@133"ISO C++ forbids declaration of 'initBoard' with no type in /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696972#18446744073709551615#0#0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#25#0#25#0#0"0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#25#0#25#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before 'private'317696972#245#116#2(7@98"In file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696972#18446744073709551615#0#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#10#0#10#0#0"0(13@107"Expected ';' before 'private' in /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696972#18446744073709551615#0#0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#26#0#26#0#0"0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#26#0#26#0#19"expected * before *0(4@101"Declaration of 'graph' as multidimensional array must have bounds for all dimensions except the first317696972#361#188#2(7@98"In file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696972#18446744073709551615#0#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#10#0#10#0#0"0(13@179"Declaration of 'graph' as multidimensional array must have bounds for all dimensions except the first in /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696972#18446744073709551615#0#0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#30#0#30#0#0"0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#30#0#30#0#0"0(4@94"Prototype for 'ChessBoard::ChessBoard(int, int, int)' does not match any in class 'ChessBoard'317696972#549#183#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#12#0#12#0#0"0(4@57"Candidates are: ChessBoard::ChessBoard(const ChessBoard&)317696972#732#144#0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#21#0#21#0#0"0(4@24"ChessBoard::ChessBoard()317696972#876#127#0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#24#0#24#0#0"0(4@32"ChessBoard::ChessBoard(int, int)317696972#1003#135#0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#23#0#23#0#0"0(4@41"'ySquares' was not declared in this scope317696972#1272#130#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#14#0#14#0#34"'*' was not declared in this scope0(4@34"'x' was not declared in this scope317696972#1523#123#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#18#0#18#0#34"'*' was not declared in this scope0(4@34"'y' was not declared in this scope317696972#1646#123#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#19#0#19#0#34"'*' was not declared in this scope0(23@16"At global scope:317696972#1769#95#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#0#0#0#0#0"0(4@55"ISO C++ forbids declaration of 'initBoard' with no type317696972#1864#144#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#24#0#24#0#47"ISO C++ forbids declaration of '*' with no type0(4@79"No 'int ChessBoard::initBoard()' member function declared in class 'ChessBoard'317696972#2008#168#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#24#0#24#0#0"0(4@38"'board' was not declared in this scope317696972#2304#127#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#25#0#25#0#34"'*' was not declared in this scope0(4@40"Expected type-specifier before '[' token317696972#2431#129#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#25#0#25#0#19"expected * before *0(4@41"'ySquares' was not declared in this scope317696972#2560#130#0(6@76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp317696944#25#0#25#0#34"'*' was not declared in this scope0(0#0#76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp8612399296#1650"    cd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-generated-files.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-own-target-headers.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-all-target-headers.hmap" -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-project-headers.hmap" "-F/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/include" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources/x86_64" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources" -c "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp" -o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/ChessBoard.o"1#
+
+CCompileC build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s317696971.764194
+e317696972.179450
+r0
+xCompileC
+xbuild/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o
+x/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp:2:
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:25: error: ISO C++ forbids declaration of 'initBoard' with no type
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:26: error: expected ';' before 'private'
+o/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:30: error: declaration of 'graph' as multidimensional array must have bounds for all dimensions except the first
+lSLF07#2@78"Compile /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp317696971#317696972#0(542"In file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp:2:/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:25: error: ISO C++ forbids declaration of 'initBoard' with no type/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:26: error: expected ';' before 'private'/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h:30: error: declaration of 'graph' as multidimensional array must have bounds for all dimensions except the first3(4@55"ISO C++ forbids declaration of 'initBoard' with no type317696972#96#142#2(7@92"In file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp317696972#18446744073709551615#0#0(6@70"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp317696969#2#0#2#0#0"0(13@133"ISO C++ forbids declaration of 'initBoard' with no type in /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696972#18446744073709551615#0#0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#25#0#25#0#0"0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#25#0#25#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before 'private'317696972#238#116#2(7@92"In file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp317696972#18446744073709551615#0#0(6@70"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp317696969#2#0#2#0#0"0(13@107"Expected ';' before 'private' in /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696972#18446744073709551615#0#0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#26#0#26#0#0"0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#26#0#26#0#19"expected * before *0(4@101"Declaration of 'graph' as multidimensional array must have bounds for all dimensions except the first317696972#354#188#2(7@92"In file included from /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp317696972#18446744073709551615#0#0(6@70"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp317696969#2#0#2#0#0"0(13@179"Declaration of 'graph' as multidimensional array must have bounds for all dimensions except the first in /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696972#18446744073709551615#0#0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#30#0#30#0#0"0(6@74"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.h317696773#30#0#30#0#0"0(0#0#70"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp7809643567100341248#1638"    cd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-generated-files.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-own-target-headers.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-all-target-headers.hmap" -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-project-headers.hmap" "-F/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/include" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources/x86_64" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources" -c "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp" -o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o"1#
+
+CLd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/KnightsTour" normal x86_64
+r0
+
