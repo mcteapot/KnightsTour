@@ -23,14 +23,14 @@ ChessBoard::ChessBoard() {
 	xSquares = 8;
 	ySquares = 8;
 	squareSize = 1;
-	
+	initBoard();
 }
 ChessBoard::~ChessBoard() {
 	//deallocation of grild
-	for(int i =0; i < xSquares; i++) {
-			delete [] grid[i];
-	}
-	delete [] grid;
+	//for(int i =0; i < xSquares; i++) {
+	//		delete [] grid[i];
+	//}
+	//delete [] grid;
 	
 }
 
@@ -117,7 +117,7 @@ void ChessBoard::listMoved() {
 //checkCompleated method
 bool ChessBoard::checkCompleated() {
 	for (int i=0; i<xSquares; i++) {
-		for (int j=0; i<ySquares; j++) {
+		for (int j=0; j<ySquares; j++) {
 			if ((grid[i][j])==0) {
 				return false;
 			}
@@ -133,6 +133,19 @@ bool ChessBoard::checkSpot(int x, int y) {
 	}
 
 	//return false;
+
+}
+void ChessBoard::copyBoard(ChessBoard aBoard){
+	//initBoard();
+	for (int i=0; i<xSquares; i++) {
+		for (int j=0; j<ySquares; j++) {
+			if (!(aBoard.checkSpot(i, j))) {
+				grid[i][j] = 1;
+			}
+		}
+	}
+	
+	
 
 }
 //getLetter helper method

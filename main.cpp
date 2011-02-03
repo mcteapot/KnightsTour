@@ -10,65 +10,50 @@ using namespace std;
 
 int main (int argc, char * const argv[]) {
 	srand((unsigned int)time(NULL));
-	//int **grid;
-	
-	// get the starting position
-		// x,y
-    
-	// prep the board
-		//..initialize, link nodes
-	
-	//find knights tour
-		//knightsGraph.findPath(x,y);
-	
-	//output that
+	//Setup
+	bool keepMoving = true;
 	int boardBlock = 1;
 	int boardSize = 8;
 	Knight theKnight(boardSize);
 	Coordinate aSpot(boardSize);
-	Coordinate twoSpot(2,5);
+	Coordinate moveSpot;
 	ChessBoard board(boardSize, boardSize, boardBlock);
     board.initBoard();
 	aSpot.printCoordinates();
 	board.printBoard();
 
-	//set init move
+	//Set init move
 	theKnight.setCoordinates(1, 7, aSpot, board);
     aSpot.printCoordinates();
 	board.printBoard();
-	//set init move
-	//board.moveToCoordinate(twoSpot);
-	//board.printBoard();
-	
-	//first move
+
+	while (keepMoving) {
+
+	//First move
 	theKnight.checkLegalMoves(aSpot, board);
 	theKnight.printLegalSpots();
-	theKnight.moveToRandomLegalSpot(aSpot, board);
+	moveSpot = theKnight.checkSecondLegalMoves(board);
+	if ((moveSpot.getX() == -1)&&(moveSpot.getX() == -1)) {
+		keepMoving = false;
+	} else {
+		aSpot = moveSpot;
+		board.moveToCoordinate(aSpot);
+	}
 	board.printBoard();
-	//second move
-	//TODO: fix the checking of spot
-	theKnight.checkLegalMoves(aSpot, board);
-	theKnight.printLegalSpots();
-	theKnight.moveToRandomLegalSpot(aSpot, board);
-	board.printBoard();
-	//board.moveToCoordinate(aSpot);
-	
+	}	
 	/*
-	theKnight.setCoordinates(3, 5, aSpot);
-	board.moveToCoordinate(aSpot);
-    aSpot.printCoordinates();
+	//second Move
+	theKnight.checkLegalMoves(aSpot, board);
+	theKnight.printLegalSpots();
+	moveSpot = theKnight.checkSecondLegalMoves(board);
+	if ((moveSpot.getX() == -1)&&(moveSpot.getX() == -1)) {
+		keepMoving = false;
+	} else {
+		aSpot = moveSpot;
+		board.moveToCoordinate(aSpot);
+	}
 	board.printBoard();
-	
-	theKnight.setCoordinates(2, 6, aSpot);
-	board.moveToCoordinate(aSpot);
-    aSpot.printCoordinates();
-	board.printBoard();
-	
-	theKnight.setRandomCoordinates(aSpot);
-	board.moveToCoordinate(aSpot);
-    aSpot.printCoordinates();
-	*/
-	
+*/
 	cout << "FINAL MOVES!\n";
 	board.printBoard();
 	board.listMoved();

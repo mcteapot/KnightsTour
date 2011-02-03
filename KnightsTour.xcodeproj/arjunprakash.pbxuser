@@ -7,6 +7,8 @@
 		addToTargets = (
 			8DD76F620486A84900D96B5E /* KnightsTour */,
 		);
+		breakpoints = (
+		);
 		codeSenseManager = 47D489B112EFA50600A216A4 /* Code sense */;
 		executables = (
 			47D489AB12EFA4E600A216A4 /* KnightsTour */,
@@ -17,7 +19,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					468,
+					315,
 					20,
 					48,
 					43,
@@ -84,6 +86,11 @@
 			47C9804112F92FEB008E785F /* PBXTextBookmark */ = 47C9804112F92FEB008E785F /* PBXTextBookmark */;
 			47C9804212F92FEB008E785F /* PBXTextBookmark */ = 47C9804212F92FEB008E785F /* PBXTextBookmark */;
 			47C9804312F92FEB008E785F /* PBXTextBookmark */ = 47C9804312F92FEB008E785F /* PBXTextBookmark */;
+			47C9805312FAA71D008E785F /* PBXTextBookmark */ = 47C9805312FAA71D008E785F /* PBXTextBookmark */;
+			47C9805412FAA71D008E785F /* PBXTextBookmark */ = 47C9805412FAA71D008E785F /* PBXTextBookmark */;
+			47C9805712FAA71D008E785F /* PBXTextBookmark */ = 47C9805712FAA71D008E785F /* PBXTextBookmark */;
+			47C9805812FAA71D008E785F /* PBXTextBookmark */ = 47C9805812FAA71D008E785F /* PBXTextBookmark */;
+			47C9805912FAA71D008E785F /* PBXTextBookmark */ = 47C9805912FAA71D008E785F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 47D489B012EFA50600A216A4 /* Source Control */;
 		userBuildSettings = {
@@ -91,41 +98,41 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {646, 1027}}";
-			sepNavSelRange = "{1057, 0}";
-			sepNavVisRange = "{0, 1277}";
+			sepNavIntBoundsRect = "{{0, 0}, {799, 845}}";
+			sepNavSelRange = "{555, 0}";
+			sepNavVisRange = "{383, 911}";
 			sepNavWindowFrame = "{{760, 108}, {602, 745}}";
 		};
 	};
 	4789E75812F1081100731147 /* Knight.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {558, 637}}";
-			sepNavSelRange = "{620, 25}";
-			sepNavVisRange = "{0, 885}";
+			sepNavIntBoundsRect = "{{0, 0}, {799, 598}}";
+			sepNavSelRange = "{654, 0}";
+			sepNavVisRange = "{32, 880}";
 			sepNavWindowFrame = "{{38, 107}, {602, 745}}";
 		};
 	};
 	4789E75912F1081100731147 /* Knight.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {901, 2223}}";
-			sepNavSelRange = "{4085, 0}";
-			sepNavVisRange = "{2705, 1739}";
-			sepNavWindowFrame = "{{38, 101}, {737, 751}}";
+			sepNavIntBoundsRect = "{{0, 0}, {901, 3562}}";
+			sepNavSelRange = "{5808, 0}";
+			sepNavVisRange = "{5384, 1243}";
+			sepNavWindowFrame = "{{404, 19}, {955, 859}}";
 		};
 	};
 	4789E7C112F241E100731147 /* Coordinate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {646, 739}}";
+			sepNavIntBoundsRect = "{{0, 0}, {799, 533}}";
 			sepNavSelRange = "{157, 0}";
-			sepNavVisRange = "{0, 629}";
+			sepNavVisRange = "{0, 608}";
 			sepNavWindowFrame = "{{832, 122}, {602, 745}}";
 		};
 	};
 	4789E7C212F241E100731147 /* Coordinate.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {558, 845}}";
-			sepNavSelRange = "{424, 0}";
-			sepNavVisRange = "{376, 559}";
+			sepNavIntBoundsRect = "{{0, 0}, {799, 845}}";
+			sepNavSelRange = "{392, 0}";
+			sepNavVisRange = "{396, 623}";
 			sepNavWindowFrame = "{{15, 4}, {617, 874}}";
 		};
 	};
@@ -134,7 +141,7 @@
 		fRef = 47D489B312EFA52600A216A4 /* ChessBoard.cpp */;
 		name = "ChessBoard.cpp: 129";
 		rLen = 0;
-		rLoc = 2379;
+		rLoc = 2399;
 		rType = 0;
 		vrLen = 759;
 		vrLoc = 1512;
@@ -154,7 +161,7 @@
 		fRef = 4789E7C212F241E100731147 /* Coordinate.cpp */;
 		name = "Coordinate.cpp: 29";
 		rLen = 0;
-		rLoc = 424;
+		rLoc = 426;
 		rType = 0;
 		vrLen = 559;
 		vrLoc = 376;
@@ -174,7 +181,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 43";
 		rLen = 0;
-		rLoc = 1010;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 287;
@@ -184,7 +191,7 @@
 		fRef = 4789E75912F1081100731147 /* Knight.cpp */;
 		name = "Knight.cpp: 106";
 		rLen = 0;
-		rLoc = 2841;
+		rLoc = 5985;
 		rType = 0;
 		vrLen = 1498;
 		vrLoc = 0;
@@ -194,7 +201,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 44";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1298;
 		vrLoc = 0;
@@ -204,7 +211,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 44";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1298;
 		vrLoc = 0;
@@ -214,7 +221,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 37";
 		rLen = 0;
-		rLoc = 851;
+		rLoc = 646;
 		rType = 0;
 		vrLen = 1383;
 		vrLoc = 149;
@@ -224,7 +231,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 43";
 		rLen = 0;
-		rLoc = 849;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 127;
@@ -234,7 +241,7 @@
 		fRef = 47D489B212EFA52600A216A4 /* ChessBoard.h */;
 		name = "ChessBoard.h: 30";
 		rLen = 0;
-		rLoc = 551;
+		rLoc = 587;
 		rType = 0;
 		vrLen = 760;
 		vrLoc = 0;
@@ -244,7 +251,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 39";
 		rLen = 0;
-		rLoc = 849;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1356;
 		vrLoc = 127;
@@ -254,7 +261,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 39";
 		rLen = 0;
-		rLoc = 826;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1316;
 		vrLoc = 127;
@@ -264,7 +271,7 @@
 		fRef = 47D489B312EFA52600A216A4 /* ChessBoard.cpp */;
 		name = "ChessBoard.cpp: 129";
 		rLen = 0;
-		rLoc = 2379;
+		rLoc = 2399;
 		rType = 0;
 		vrLen = 845;
 		vrLoc = 1604;
@@ -274,7 +281,7 @@
 		fRef = 47D489B212EFA52600A216A4 /* ChessBoard.h */;
 		name = "ChessBoard.h: 30";
 		rLen = 31;
-		rLoc = 521;
+		rLoc = 557;
 		rType = 0;
 		vrLen = 760;
 		vrLoc = 0;
@@ -284,7 +291,7 @@
 		fRef = 47D489B212EFA52600A216A4 /* ChessBoard.h */;
 		name = "ChessBoard.h: 30";
 		rLen = 31;
-		rLoc = 521;
+		rLoc = 557;
 		rType = 0;
 		vrLen = 760;
 		vrLoc = 0;
@@ -314,7 +321,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 40";
 		rLen = 0;
-		rLoc = 826;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 127;
@@ -324,7 +331,7 @@
 		fRef = 47D489B212EFA52600A216A4 /* ChessBoard.h */;
 		name = "ChessBoard.h: 30";
 		rLen = 31;
-		rLoc = 521;
+		rLoc = 557;
 		rType = 0;
 		vrLen = 760;
 		vrLoc = 0;
@@ -334,7 +341,7 @@
 		fRef = 47D489B312EFA52600A216A4 /* ChessBoard.cpp */;
 		name = "ChessBoard.cpp: 106";
 		rLen = 0;
-		rLoc = 1917;
+		rLoc = 1937;
 		rType = 0;
 		vrLen = 906;
 		vrLoc = 1478;
@@ -344,7 +351,7 @@
 		fRef = 4789E75912F1081100731147 /* Knight.cpp */;
 		name = "Knight.cpp: 106";
 		rLen = 0;
-		rLoc = 2841;
+		rLoc = 5985;
 		rType = 0;
 		vrLen = 1498;
 		vrLoc = 0;
@@ -354,7 +361,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 45";
 		rLen = 0;
-		rLoc = 909;
+		rLoc = 929;
 		rType = 0;
 		vrLen = 1386;
 		vrLoc = 287;
@@ -364,10 +371,60 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 50";
 		rLen = 0;
-		rLoc = 1057;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1277;
 		vrLoc = 0;
+	};
+	47C9805312FAA71D008E785F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 46";
+		rLen = 0;
+		rLoc = 1263;
+		rType = 0;
+		vrLen = 1373;
+		vrLoc = 335;
+	};
+	47C9805412FAA71D008E785F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D489B312EFA52600A216A4 /* ChessBoard.cpp */;
+		name = "ChessBoard.cpp: 129";
+		rLen = 0;
+		rLoc = 2399;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 1478;
+	};
+	47C9805712FAA71D008E785F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4789E75812F1081100731147 /* Knight.h */;
+		name = "Knight.h: 31";
+		rLen = 0;
+		rLoc = 671;
+		rType = 0;
+		vrLen = 949;
+		vrLoc = 0;
+	};
+	47C9805812FAA71D008E785F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4789E75912F1081100731147 /* Knight.cpp */;
+		name = "Knight.cpp: 102";
+		rLen = 38;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1740;
+		vrLoc = 1518;
+	};
+	47C9805912FAA71D008E785F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4789E75912F1081100731147 /* Knight.cpp */;
+		name = "Knight.cpp: 108";
+		rLen = 0;
+		rLoc = 5507;
+		rType = 0;
+		vrLen = 1575;
+		vrLoc = 1458;
 	};
 	47D489AB12EFA4E600A216A4 /* KnightsTour */ = {
 		isa = PBXExecutable;
@@ -417,18 +474,18 @@
 	};
 	47D489B212EFA52600A216A4 /* ChessBoard.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {543, 624}}";
-			sepNavSelRange = "{521, 31}";
-			sepNavVisRange = "{0, 760}";
+			sepNavIntBoundsRect = "{{0, 0}, {799, 637}}";
+			sepNavSelRange = "{556, 0}";
+			sepNavVisRange = "{177, 619}";
 			sepNavWindowFrame = "{{728, 70}, {602, 745}}";
 		};
 	};
 	47D489B312EFA52600A216A4 /* ChessBoard.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {628, 1859}}";
-			sepNavSelRange = "{1932, 0}";
-			sepNavVisRange = "{1625, 912}";
-			sepNavWindowFrame = "{{790, 56}, {628, 803}}";
+			sepNavIntBoundsRect = "{{0, 0}, {799, 2054}}";
+			sepNavSelRange = "{2583, 0}";
+			sepNavVisRange = "{2196, 568}";
+			sepNavWindowFrame = "{{40, 55}, {628, 803}}";
 		};
 	};
 	8DD76F620486A84900D96B5E /* KnightsTour */ = {

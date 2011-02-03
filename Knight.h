@@ -28,6 +28,7 @@ public:
 	void moveToRandomLegalSpot(Coordinate &aSpot, ChessBoard &theGrid);
 	void setCoordinates(int x,int y,Coordinate &theSpot, ChessBoard &theGrid);
 	void setRandomCoordinates(Coordinate &theSpot);
+	Coordinate checkSecondLegalMoves(ChessBoard grid);
 	void printLegalSpots();
 	void knightMoves();
 	void printH();

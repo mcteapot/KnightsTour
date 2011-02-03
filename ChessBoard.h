@@ -27,6 +27,7 @@ public:
 	void moveToCoordinate(Coordinate &theSpot);
 	void listMoved();
 	bool checkCompleated();
+	void copyBoard(ChessBoard aBoard);
 	bool checkSpot(int x, int y);
 private:
 	
