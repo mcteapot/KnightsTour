@@ -26,6 +26,7 @@ int main (int argc, char * const argv[]) {
 	int boardSize = 8;
 	Knight theKnight(boardSize);
 	Coordinate aSpot(boardSize);
+	Coordinate twoSpot(2,5);
 	ChessBoard board(boardSize, boardSize, boardBlock);
     board.initBoard();
 	aSpot.printCoordinates();
@@ -35,6 +36,10 @@ int main (int argc, char * const argv[]) {
 	theKnight.setCoordinates(1, 7, aSpot, board);
     aSpot.printCoordinates();
 	board.printBoard();
+	//set init move
+	//board.moveToCoordinate(twoSpot);
+	//board.printBoard();
+	
 	//first move
 	theKnight.checkLegalMoves(aSpot, board);
 	theKnight.printLegalSpots();

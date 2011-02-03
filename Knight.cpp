@@ -133,7 +133,7 @@ void Knight::moveToRandomLegalSpot(Coordinate &aSpot, ChessBoard &theGrid) {
 				break;
 		}
 		
-		possibleMoves = NULL;
+		possibleMoves = -1;
 		legalMovesChecked = false;
 	}
 

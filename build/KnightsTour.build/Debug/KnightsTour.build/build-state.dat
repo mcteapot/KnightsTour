@@ -1,7 +1,7 @@
 TKnightsTour
 v7
 r0
-t318252300.535210
+t318320602.799140
 cCheck dependencies
 cCompileC build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 cCompileC build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/ChessBoard.o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
@@ -48,9 +48,9 @@ i<time.h>
 i<cstdlib>
 
 N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Knight.cpp
-c000000004D47E95A000000000000145A
-t1296558426
-s5210
+c000000004D48B6310000000000001458
+t1296610865
+s5208
 i"Knight.h"
 
 N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Knight.h
@@ -64,8 +64,8 @@ i"Coordinate.h"
 i"ChessBoard.h"
 
 N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/KnightsTour
-t1296559489
-s46920
+t1296627802
+s51032
 
 N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/ChessBoard.o
 t1296559484
@@ -76,7 +76,7 @@ t1296554647
 s74812
 
 N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/Knight.o
-t1296558426
+t1296610870
 s87088
 
 N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/KnightsTour.LinkFileList
@@ -85,13 +85,13 @@ t1296174028
 s570
 
 N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o
-t1296558782
-s76732
+t1296627802
+s76896
 
 N/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp
-c000000004D47EE0E000000000000066E
-t1296559630
-s1646
+c000000004D48F85800000000000006D6
+t1296627800
+s1750
 i<iostream>
 i<time.h>
 i<cstdlib>
@@ -101,7 +101,7 @@ i"Knight.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies318252300#318252300#0(0"0(0#1#0"8616468384#0"0#
+lSLF07#2@18"Check dependencies318320602#318320602#0(0"0(0#1#0"8603180352#0"0#
 
 CCompileC build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/ChessBoard.o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/ChessBoard.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s318252289.006985
@@ -130,8 +130,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Coordinate.cpp318247447#318247447#0(0"0(0#0#76"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Coordinate.cpp8615055712#1650"    cd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-generated-files.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-own-target-headers.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-all-target-headers.hmap" -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-project-headers.hmap" "-F/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/include" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources/x86_64" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources" -c "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Coordinate.cpp" -o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/Coordinate.o"0#
 
 CCompileC build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/Knight.o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Knight.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s318251241.530721
-e318251241.531991
+s318303669.565301
+e318303670.014463
 r1
 xCompileC
 xbuild/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/Knight.o
@@ -140,11 +140,11 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Knight.cpp318251241#318251241#0(0"0(0#0#72"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Knight.cpp8614008032#1642"    cd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-generated-files.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-own-target-headers.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-all-target-headers.hmap" -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-project-headers.hmap" "-F/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/include" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources/x86_64" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources" -c "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Knight.cpp" -o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/Knight.o"0#
+lSLF07#2@80"Compile /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Knight.cpp318303669#318303670#0(0"0(0#0#72"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Knight.cpp8617610848#1642"    cd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-generated-files.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-own-target-headers.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-all-target-headers.hmap" -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-project-headers.hmap" "-F/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/include" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources/x86_64" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources" -c "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/Knight.cpp" -o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/Knight.o"0#
 
 CCompileC build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s318251585.905633
-e318251585.907607
+s318320602.361886
+e318320602.774599
 r1
 xCompileC
 xbuild/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o
@@ -153,15 +153,15 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp318251585#318251585#0(0"0(0#0#70"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp8614405952#1638"    cd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-generated-files.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-own-target-headers.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-all-target-headers.hmap" -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-project-headers.hmap" "-F/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/include" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources/x86_64" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources" -c "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp" -o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o"0#
+lSLF07#2@78"Compile /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp318320602#318320602#0(0"0(0#0#70"/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp8603360864#1638"    cd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-generated-files.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-own-target-headers.hmap" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-all-target-headers.hmap" -iquote "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/KnightsTour-project-headers.hmap" "-F/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/include" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources/x86_64" "-I/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/DerivedSources" -c "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/main.cpp" -o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/main.o"0#
 
 CLd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/KnightsTour" normal x86_64
-s318252289.008610
-e318252289.053039
+s318320602.774690
+e318320602.799091
 r1
 xLd
 x/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/KnightsTour
 xnormal
 xx86_64
-lSLF07#2@90"Link /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/KnightsTour318252289#318252289#0(0"0(0#0#0"8620110144#639"    cd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" "-F/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" -filelist "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/KnightsTour.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/KnightsTour"0#
+lSLF07#2@90"Link /Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/KnightsTour318320602#318320602#0(0"0(0#0#0"8616537952#639"    cd "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" "-F/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug" -filelist "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/KnightsTour.build/Debug/KnightsTour.build/Objects-normal/x86_64/KnightsTour.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/arjunprakash/Work/Development/Extra Credit/KnightsTour/build/Debug/KnightsTour"0#
 
